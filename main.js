@@ -4,9 +4,9 @@ import {
   renderError,
   spinner,
 } from "./render-Country";
-import Navigo from "navigo";
 import "./style.css";
 import { mount, unmount } from "redom";
+import Navigo from "navigo";
 
 const router = new Navigo("/");
 
